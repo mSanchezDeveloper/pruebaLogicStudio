@@ -1,5 +1,6 @@
-/*Color */
-/*values */
+/*Colors */
+/* Colors */
+/* Values */
 /** margin-top */
 .margin-top-100 {
   margin-top: 100px; }
@@ -111,7 +112,7 @@
 
 /** colors */
 .background-gray {
-  background-color: #333333; }
+  background-color: Sgray-color; }
 
 .background-secondary {
   background-color: #0098D7; }
@@ -126,7 +127,7 @@
   color: #333333; }
 
 .color-white {
-  color: #ffffff; }
+  color: #fafafa; }
 
 .color-primary {
   color: #313183; }
@@ -140,12 +141,12 @@ a.primary-link {
   cursor: pointer;
   transition: color 0.3s;
   text-decoration: none;
-  color: #FF3100; }
+  color: red; }
 
 a.primary-link:hover {
-  color: #313183; }
+  color: #FF3100; }
 
 .text-align-center {
   text-align: center; }
 
-/*# sourceMappingURL=colors-magins.css.map */
+/*# sourceMappingURL=margins.css.map */

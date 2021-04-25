@@ -1,86 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Logic Studio</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <link
-      rel="icon"
-      type="image/png"
-      href="image/favicon.png"
-      sizes="16x16 24x24 36x36 48x48"
-    />
-  </head>
+<html lang="en">
 
-  <body>
-    <!-- Header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>LogicStudio</title>
+</head>
+
+<body>
     <header>
-      <div class="header-logo">
-        <img src="image/logicStudio.svg" alt="logicStudio">
-      </div>
-      <!-- Navigation -->
-      <nav id="desktop-nav" class="menu">
-        <ul class="menu-list">
-          <li class="page-scroll active">
-            <a href="#home">Home</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#Product">Producto</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#about">Acerca de nosotros</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </nav>
+        <a href="index.html">
+            <img src="./img/logicStudio.svg" alt="LogicStudio" width="200">
+        </a>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li>Home</li>
+                <li class="active">Products</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
     </header>
-    <!-- Main secction -->
-    <h1 class="margin-top-100 text-align-center padding-l">Software de reconocimiento facial</h1>
-    <main class="container-full padding-l">
-      <div class="container-50 center-flex__column">
-        <h2>Detecta, rastrea, identifica y analiza rostros</h2>
-        <p class="margin-top-l">Instant and accurate facial recognition even of masked faces. Available human traffic data collection and processing to enable personalized and anonymous target audience analytics.</p>
-        <a href="#" class="link margin-top-l">Conoce más:</a>
-      </div>
-      <div class="container-50 center-flex__column">
-        <img class="padding-xl" src="image/main-image.svg" alt="Facial recognition">
-      </div>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <div class="container-footer padding-m">
-        <img src="image/logicStudioWhite.svg" alt="Logic Studio" width="100">
-      </div>
-      <div class="container-footer padding-m">
-        <small>© All Rights Reserved. 3LogicStudio Inc.</small>
-      </div>
-      <div class="container-footer padding-m">
-        <ul class="social-icons">
-          <li>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-instagram-square"></i></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-  <script src="js/js.js" language="javascript" type="text/javascript"></script>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Information Technology</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam! Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="/img/main-image.svg" alt="Langing image">
+        </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+
+</body>
+
 </html>

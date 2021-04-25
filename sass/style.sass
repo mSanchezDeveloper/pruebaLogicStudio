@@ -1,0 +1,101 @@
+@import "./reset"
+@import "./margins"
+
+body
+    min-height: 100vh
+    width: 100%
+    background-color: $white-color
+    display: flex
+    flex-direction: column
+
+header
+    color: $primary-color
+    position: fixed
+    top: 0
+    height: 80px
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 64px
+    font-size: 16px
+    position: relative
+    background-color: $white-secondary
+
+header h1
+    text-transform: uppercase
+    font-size: 1.7em
+    letter-spacing: 1px
+
+.menu
+    display: flex
+
+.menu button
+        display: none
+
+.menu-list
+        list-style: none
+        display: flex
+
+.menu-list li
+        display: inline-block
+        margin-left: 32px
+        font-size: 1.1em
+        cursor: pointer
+        transition: color 0.3s
+
+.menu-list li.active,
+
+.menu-list li:hover
+        color: $complementary-color
+
+.main
+    flex: 1
+    display: flex
+    align-items: center
+
+.right img
+    width: 100%
+
+.left
+    max-width: 45%
+    padding: 40px 64px
+
+.right
+    padding: 40px 48px
+
+.title
+    color: red
+    font-size: 3.2em
+    width: 50%
+    font-weight: bold
+    letter-spacing: 2px
+    margin-bottom: 48px
+
+.msg
+    color: $gray-color
+    font-size: 1.1em
+    letter-spacing: 0.7px
+    line-height: 32px
+    margin-bottom: 48px
+
+button.cta
+    border: none
+    outline: none
+    background-color: blue
+    color: $white-color
+    padding: 18px 32px
+    font-weight: bold
+    letter-spacing: 3px
+    text-transform: uppercase
+    border-radius: 30px
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.08)
+    cursor: pointer
+    transition: opacity 0.9
+
+button.cta:hover
+    opacity: 0.9
+
+/* ----- Responsive ----- */
+@import "./responsive"
+/* ----- Responsive ----- */
