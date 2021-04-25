@@ -1,4 +1,4 @@
-# pruebaLogicStudio
+# prueba para la empresa LogicStudio
 
 ## Prueba para UI Developer en la empresa Logic Studio en Quito Ecuador
 
