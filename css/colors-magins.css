@@ -1,0 +1,151 @@
+/*Color */
+/*values */
+/** margin-top */
+.margin-top-100 {
+  margin-top: 100px; }
+
+.margin-top-xl {
+  margin-top: 40px; }
+
+.margin-top-l {
+  margin-top: 30px; }
+
+.margin-top-m {
+  margin-top: 20px; }
+
+.margin-top-s {
+  margin-top: 10px; }
+
+/** margin-left */
+.margin-left-xl {
+  margin-left: 40px; }
+
+.margin-left-l {
+  margin-left: 30px; }
+
+.margin-left-m {
+  margin-left: 20px; }
+
+.margin-left-s {
+  margin-left: 10px; }
+
+/** margin-right */
+.margin-right-xl {
+  margin-right: 40px; }
+
+.margin-right-l {
+  margin-right: 30px; }
+
+.margin-right-m {
+  margin-right: 20px; }
+
+.margin-right-s {
+  margin-right: 10px; }
+
+/** margin */
+.margin-xl {
+  margin-right: 40px; }
+
+.margin-l {
+  margin-right: 30px; }
+
+.margin-m {
+  margin-right: 20px; }
+
+.margin-s {
+  margin-right: 10px; }
+
+/** padding-top */
+.padding-top-xl {
+  padding-top: 40px; }
+
+.padding-top-l {
+  padding-top: 30px; }
+
+.padding-top-m {
+  padding-top: 20px; }
+
+.padding-top-s {
+  padding-top: 20px; }
+
+/** padding-left */
+.padding-left-xl {
+  padding-left: 40px; }
+
+.padding-left-l {
+  padding-left: 30px; }
+
+.padding-left-m {
+  padding-left: 20px; }
+
+.padding-left-s {
+  padding-left: 10px; }
+
+/** padding */
+.padding-xl {
+  padding: 40px; }
+
+.padding-l {
+  padding: 30px; }
+
+.padding-m {
+  padding: 20px; }
+
+.padding-s {
+  padding: 10px; }
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.center-flex__column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.center-flex__space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+/** colors */
+.background-gray {
+  background-color: #333333; }
+
+.background-secondary {
+  background-color: #0098D7; }
+
+.background-primary {
+  background-color: #313183; }
+
+.background-white_secondary {
+  background-color: #f2f2f2; }
+
+.color-gray {
+  color: #333333; }
+
+.color-white {
+  color: #ffffff; }
+
+.color-primary {
+  color: #313183; }
+
+.color-secondary {
+  color: #0098D7; }
+
+/** Links */
+a.primary-link {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-decoration: none;
+  color: #FF3100; }
+
+a.primary-link:hover {
+  color: #313183; }
+
+.text-align-center {
+  text-align: center; }
+
+/*# sourceMappingURL=colors-magins.css.map */
