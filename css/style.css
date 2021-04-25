@@ -164,7 +164,6 @@ body {
 
 header {
   color: #313183;
-  position: fixed;
   top: 0;
   height: 80px;
   width: 100%;
@@ -215,7 +214,8 @@ header h1 {
   padding: 40px 64px; }
 
 .right {
-  padding: 40px 48px; }
+  padding: 40px 48px;
+  width: 40vw; }
 
 .title {
   color: red;
@@ -235,7 +235,7 @@ header h1 {
 button.cta {
   border: none;
   outline: none;
-  background-color: blue;
+  background-color: #313183;
   color: #fafafa;
   padding: 18px 32px;
   font-weight: bold;
@@ -244,10 +244,23 @@ button.cta {
   border-radius: 30px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.08);
   cursor: pointer;
-  transition: opacity 0.9; }
+  transition: opacity 0.9s; }
 
 button.cta:hover {
   opacity: 0.9; }
+
+footer {
+  background-color: #f2f2f2; }
+
+span.social-icons {
+  width: 200px; }
+
+span.social-icons a {
+  color: #313183;
+  transition: all 0.5s; }
+
+span.social-icons a:hover {
+  color: #0098D7; }
 
 /* ----- Responsive ----- */
 /*  -----    Mobile    -----  */
@@ -265,7 +278,8 @@ button.cta:hover {
     padding: 24px;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    height: 38vh; }
 
   .left {
     font-size: 0.8em; }
@@ -279,7 +293,7 @@ button.cta:hover {
     max-width: 60%; }
 
   .right img {
-    width: 80%; }
+    display: none; }
 
   /* Nav Menu Responsiveness */
   .menu button {
@@ -288,7 +302,7 @@ button.cta:hover {
     height: 40px;
     border: none;
     background: transparent;
-    color: #711def;
+    color: #313183;
     outline: none;
     font-size: 1.7em;
     cursor: pointer;
@@ -301,6 +315,13 @@ button.cta:hover {
     display: block;
     animation: enter 0.8s; }
 
+  .center-flex__space-between {
+    flex-flow: wrap; }
+
+  span.social-icons {
+    width: 100%;
+    margin-top: 20px; }
+
   @keyframes enter {
     0% {
       opacity: 0; }
@@ -312,8 +333,8 @@ button.cta:hover {
     right: 0;
     width: 80%;
     height: 100%;
-    background-color: #711def;
-    color: #fff;
+    background-color: #313183;
+    color: #fafafa;
     padding: 46px;
     flex-direction: column;
     align-items: flex-end;
@@ -329,7 +350,7 @@ button.cta:hover {
     transform: translateX(0); }
 
   .menu.opened button {
-    color: #fff; } }
+    color: #fafafa; } }
 /* ----- Responsive ----- */
 
 /*# sourceMappingURL=style.css.map */

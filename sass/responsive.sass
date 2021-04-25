@@ -4,11 +4,11 @@
     header, .left, .right
         padding-left: 40px
         padding-right: 40px
-        
+
 @media (max-width: 650px)
     .main
         flex-direction: column
-    
+
     .left, .right
         width: 100%
         max-width: 100%
@@ -16,6 +16,7 @@
         display: flex
         flex-direction: column
         align-items: center
+        height: 38vh
 
     .left
         font-size: 0.8em
@@ -29,7 +30,7 @@
         max-width: 60%
 
     .right img
-        width: 80%
+        display: none
 
     /* Nav Menu Responsiveness */
     .menu button
@@ -38,18 +39,25 @@
         height: 40px
         border: none
         background: transparent
-        color: #711def
+        color: $primary-color
         outline: none
         font-size: 1.7em
         cursor: pointer
         z-index: 2
-        
+
     .menu i.fa-times, .menu.opened i.fa-bars
         display: none
-        
+
     .menu.opened i.fa-times, .menu i.fa-bars
         display: block
         animation: enter 0.8s
+
+    .center-flex__space-between
+        flex-flow: wrap
+
+    span.social-icons
+        width: 100%
+        margin-top: 20px
 
     @keyframes enter
         0%
@@ -64,8 +72,8 @@
         right: 0
         width: 80%
         height: 100%
-        background-color: #711def
-        color: #fff
+        background-color: $primary-color
+        color: $white-color
         padding: 46px
         flex-direction: column
         align-items: flex-end
@@ -81,4 +89,4 @@
         transform: translateX(0)
 
     .menu.opened button
-        color: #fff
+        color: $white-color
